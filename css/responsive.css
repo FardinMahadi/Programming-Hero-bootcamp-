@@ -1,0 +1,74 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .hero-section .blob-image,
+  .hero-section .text {
+    width: 100%;
+  }
+
+  .about-me,
+  .my-experience {
+    flex-direction: column;
+    padding: 5rem 1rem;
+  }
+
+  .about-me .text,
+  .my-experience .left,
+  .my-experience .right {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .portfolio {
+    padding: 1rem;
+  }
+
+  .portfolio-main{
+    max-width: 90%;
+  }
+
+  .portfolio-main .text{
+    margin-bottom: 1rem;
+  }
+
+  .portfolio-main .category{
+    padding: 1rem;
+  }
+
+  .portfolio-main .project {
+    flex-direction: column;
+  }
+
+  .portfolio-main .project img {
+    margin-bottom: 1rem;
+  }
+  footer{
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  footer .text,
+  footer .icons{
+    margin: 5px;
+  }
+}
